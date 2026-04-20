@@ -13,6 +13,7 @@ Classes to implement:
       - NarrativeEpisode
     - AudiobookTrack
 """
+from __future__ import annotations
 
 class Track:
     def __init__(self, track_id: str, title: str, duration_seconds: int, genre: str):
